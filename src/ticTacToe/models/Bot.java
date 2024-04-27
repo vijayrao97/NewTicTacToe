@@ -1,6 +1,5 @@
 package ticTacToe.models;
 
-import inheritance.B;
 import ticTacToe.stratergy.botStrategy.BotPlayingFactory;
 import ticTacToe.stratergy.botStrategy.BotStrategy;
 

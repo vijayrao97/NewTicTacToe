@@ -185,8 +185,8 @@ public class Game {
             return;
         }
 
-        Cell c = moves.getLast();
-        moves.removeLast();
+        Cell c = moves.get(moves.size()-1);
+        moves.remove(c);
 
         for(WinningStrategy ws: winningStrategies){
             ws.handleUndo(c, board);

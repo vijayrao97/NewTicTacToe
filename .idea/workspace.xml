@@ -1,11 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ce2d750-57e5-49b2-a22e-b9a2674ee5e2" name="Changes" comment="" />
+    <list default="true" id="5ce2d750-57e5-49b2-a22e-b9a2674ee5e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewTicTacToe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/Exceptions/InvalidBotCountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/Exceptions/PlayerSizeInvalid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/controller/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/BotDificulty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/CellStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/playerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/stratergy/botStrategy/BotPlayingFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/stratergy/botStrategy/BotStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/stratergy/botStrategy/EasyPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/stratergy/botStrategy/MediumStategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/stratergy/winning/DiagonalWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/stratergy/winning/RowWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/stratergy/winning/WinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/stratergy/winning/columnWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractor/Adder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractor/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractor/Subtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractor/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractorMutex/Adder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractorMutex/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractorMutex/Subtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractorMutex/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractorSynchronized/Adder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractorSynchronized/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractorSynchronized/Subtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/AdderSubtractorSynchronized/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Builder/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Builder/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Builder/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Collection/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Collection/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Collection/StudentPspComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ExceptionHandling/DivNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ExceptionHandling/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ExceptionHandling/NumberNotAllowed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Generics/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Generics/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/IntroToThreads/HelloWorldPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/IntroToThreads/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/IntroToThreads/PrintingNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Lambda/Lambda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Lambda/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ProducerConsumer/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ProducerConsumer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ProducerConsumer/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ProducerConsumer/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ProducerConsumerSemaphore/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ProducerConsumerSemaphore/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ProducerConsumerSemaphore/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ProducerConsumerSemaphore/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/PrototypeDesign/IStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/PrototypeDesign/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/PrototypeDesign/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/PrototypeDesign/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/PrototypeDesign/StudentRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/abstractPkg/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/abstractPkg/Bat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/abstractPkg/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/abstractPkg/batA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/abstractPkg/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/abstractPkg/mammal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/decorator/Addons/Addon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/decorator/Addons/Milk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/decorator/Addons/Waffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/decorator/Addons/Whip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/decorator/Beverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/decorator/Espresso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/decorator/Latte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/decorator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/inheritance/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/inheritance/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/inheritance/C.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/inheritance/D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/inheritance/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/inheritance/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/inheritance/runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/inheritance/student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/interfaces/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/interfaces/Bat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/interfaces/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/interfaces/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/interfaces/mammal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/interfaces/runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/mergeSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/mergeSort/Sorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/Controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/DTO/IssueTicketRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/DTO/IssueTicketResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/BaseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/BillStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/Floor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/FloorStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/Gate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/GateStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/GateType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/ParkingLot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/ParkingLotStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/PaymentModes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/PaymentStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/Slot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/SlotAssignmentStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/VehicleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/parkinglot/models/slotStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/singleton/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/singleton/dbconn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/Exceptions/InvalidBotCountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/Exceptions/PlayerSizeInvalid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/controller/GameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/Bot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/BotDificulty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/CellStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/GameStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/Symbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/models/playerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/stratergy/botStrategy/BotPlayingFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/stratergy/botStrategy/BotStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/stratergy/botStrategy/EasyPlayingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/stratergy/botStrategy/MediumStategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/stratergy/winning/DiagonalWinningStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/stratergy/winning/RowWinningStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/stratergy/winning/WinningStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/ticTacToe/stratergy/winning/columnWinningStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/weather/AvgDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/weather/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/weather/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/weather/Provider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/weather/WeatherData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD-Feb-Morning/src/weather/currentDisplay.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -18,11 +174,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/a2z/IdeaProjects/NewTicTacToe/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -34,22 +197,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714242525571</updated>
-      <workItem from="1714242526840" duration="3000" />
+      <workItem from="1714242526840" duration="337000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

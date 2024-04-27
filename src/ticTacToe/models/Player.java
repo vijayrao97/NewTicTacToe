@@ -1,6 +1,5 @@
 package ticTacToe.models;
 
-import inheritance.B;
 
 import java.util.Scanner;
 
