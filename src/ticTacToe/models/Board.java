@@ -40,7 +40,6 @@ public class Board {
                 c.display();
             }
             System.out.println();
-
         }
     }
 }

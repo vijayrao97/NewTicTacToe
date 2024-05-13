@@ -3,8 +3,15 @@ package ticTacToe.models;
 public class Cell {
     private int row;
     private int col;
-
     private Player player;
+    private CellStatus cellStatus;
+
+    public Cell(int row, int col){
+        this.row = row;
+        this.col = col;
+        this.player = null;
+        this.cellStatus = CellStatus.EMPTY;
+    }
 
     public int getRow() {
         return row;
@@ -36,16 +43,6 @@ public class Cell {
 
     public void setCellStatus(CellStatus cellStatus) {
         this.cellStatus = cellStatus;
-    }
-
-    private CellStatus cellStatus;
-
-
-    public Cell(int row, int col){
-        this.row = row;
-        this.col = col;
-        this.player = null;
-        this.cellStatus = CellStatus.EMPTY;
     }
 
     public void display(){

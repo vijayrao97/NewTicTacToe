@@ -10,11 +10,8 @@ import java.util.Map;
 public class columnWinningStrategy implements WinningStrategy{
 
     Map<Integer, HashMap<Symbol,Integer>> counts = new HashMap<>();
-
     @Override
     public boolean checkWinner(Cell c, Board b) {
-
-
         int col = c.getCol();
         Symbol s = c.getPlayer().getSymbol();
 
@@ -27,7 +24,6 @@ public class columnWinningStrategy implements WinningStrategy{
             hs.put(s, 0);
         }
         hs.put(s, hs.get(s)+1);
-
         return hs.get(s) == b.getSize();
     }
 

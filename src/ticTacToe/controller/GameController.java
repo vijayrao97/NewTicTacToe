@@ -13,13 +13,10 @@ public class GameController {
     public Game startGame(int size, List<Player> players,
                           List<WinningStrategy> winningStrategies)
             throws InvalidBotCountException, PlayerSizeInvalid {
-
         return Game.getBuilder().setDimension(size)
                 .setPlayers(players)
                 .setWs(winningStrategies)
                 .build();
-
-
     }
 
     public void displayBoard(Game g){

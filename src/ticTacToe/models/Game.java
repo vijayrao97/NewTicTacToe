@@ -3,7 +3,6 @@ package ticTacToe.models;
 import ticTacToe.Exceptions.InvalidBotCountException;
 import ticTacToe.Exceptions.PlayerSizeInvalid;
 import ticTacToe.stratergy.winning.WinningStrategy;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,9 +11,7 @@ public class Game {
     private Board board;
     List<Player> players;
     private List<Cell> moves;
-
     private int nextPlayerTurn;
-
     private Player winner;
     private GameStatus gameStatus;
 
@@ -28,7 +25,6 @@ public class Game {
         this.gameStatus = GameStatus.IN_PROGRESS;
         this.nextPlayerTurn = 0;
         this.winner = null;
-
     }
 
     public List<WinningStrategy> getWinningStrategies() {
@@ -137,6 +133,7 @@ public class Game {
                 throw new PlayerSizeInvalid();
             }
         }
+
         public Game build() throws InvalidBotCountException, PlayerSizeInvalid {
             validate();
             return new Game(this.dimension, this.players,
@@ -166,7 +163,6 @@ public class Game {
         }
         this.nextPlayerTurn +=1;
         this.nextPlayerTurn = (players.size()+nextPlayerTurn)%players.size();
-
     }
 
 

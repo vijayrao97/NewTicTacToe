@@ -19,14 +19,15 @@ public class main {
         Scanner s = new Scanner(System.in);
         GameController gc = new GameController();
 
-        //        System.out.println("Do you want row winning strategy.. press 1");
+//        System.out.println("Do you want row winning strategy.. press 1");
 //        int input = s.nextInt();
 //        if (input==1){
 //            ws.add( new RowWinningStrategy())
 //        }
+
         int dimension = 3;
         List<Player> p = new ArrayList<>();
-        p.add(new Player("Karan", 1, playerType.HUMAN, new Symbol('x')));
+        p.add(new Player("Vijay", 1, playerType.HUMAN, new Symbol('x')));
         p.add(new Bot(2, "Bot", new Symbol('O'), BotDificulty.EASY));
         List<WinningStrategy> ws = List.of(
                 new columnWinningStrategy(),
@@ -57,7 +58,5 @@ public class main {
         else if (g1.getGameStatus().equals(GameStatus.DRAW)){
             System.out.println("game ended as draw...");
         }
-
-
     }
 }

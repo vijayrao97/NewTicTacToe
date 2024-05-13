@@ -7,12 +7,17 @@ public class Player {
 
     private int id;
     private String name;
-
     private playerType playerType;
-
     private Symbol symbol;
-
     Scanner scanner;
+
+    public Player(String name, int id, playerType type, Symbol s){
+        this.name=name;
+        this.id=id;
+        this.playerType=type;
+        this.symbol=s;
+        scanner = new Scanner(System.in);
+    }
 
     public int getId() {
         return id;
@@ -46,17 +51,10 @@ public class Player {
         this.symbol = symbol;
     }
 
-    public Player(String name, int id, playerType type, Symbol s){
-        this.name=name;
-        this.id=id;
-        this.playerType=type;
-        this.symbol=s;
-        scanner = new Scanner(System.in);
-    }
-
     public boolean validateInput(int row, int col){
         return true;
     }
+
     public Cell decideCell(Board b){
         System.out.println("Please mention a row..");
         int row = scanner.nextInt();
@@ -67,8 +65,7 @@ public class Player {
             System.out.println("Invalid Input");
             return null;
         }
-
         return b.getGrid().get(row).get(col);
-
     }
+
 }
