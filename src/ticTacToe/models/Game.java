@@ -127,10 +127,10 @@ public class Game {
                 }
             }
             if(botCount>1){
-                throw new InvalidBotCountException();
+                throw new InvalidBotCountException("More than one bot is allowed.");
             }
             if (players.size() > dimension-1){
-                throw new PlayerSizeInvalid();
+                throw new PlayerSizeInvalid("More player where added then cell.");
             }
         }
 
@@ -180,19 +180,15 @@ public class Game {
             System.out.println("Nothing to undo..");
             return;
         }
-
         Cell c = moves.get(moves.size()-1);
         moves.remove(c);
-
         for(WinningStrategy ws: winningStrategies){
             ws.handleUndo(c, board);
         }
-
         c.setCellStatus(CellStatus.EMPTY);
         c.setPlayer(null);
         nextPlayerTurn -=1;
         nextPlayerTurn = (players.size()+nextPlayerTurn)%players.size();
-
     }
 
 
